@@ -30,4 +30,4 @@ import keras
 You should see the TensorFlow version printed and confirmation of "Using TensorFlow backend" then you are good to go. 
 Otherwise, in Jupyter Notebook, click Kernel/ChangeKernel/select the kernel "fasion-mnist-tutorial". 
 
-![alt text](images/tf keras_confirmation.png "TensorFlow and Keras setup confirmation")
+![alt text](images/tf keras_confirmation.png)
