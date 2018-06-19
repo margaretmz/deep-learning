@@ -2,10 +2,12 @@
 
 The installation setup below should take no more than 10 to 15 minutes. 
 
+Note you don't need to install Keras if you are using it as part of the core TensorFlow API. After installing TensorFlow, import tensorflow as tf, then use tf.keras.
+
 Download Anaconda and choose Python 3.6 version: https://www.anaconda.com/download 
 After downloading and installing conda, type "conda list" (and a list of packages will appear) to make sure the installation was successful. If it complains about "conda not found" then reopen your command line window. Update conda if needed. 
 
-Set up a new conda environment, then install TF, Keras, launch Jupyter Notebook- 
+Set up a new conda environment, then install TF, Keras, launch Jupyter Notebook. 
 
 ```
 $ conda create -n fasion-mnist-tutorial`  # create a new environment  
