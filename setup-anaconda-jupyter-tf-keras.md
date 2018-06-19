@@ -1,6 +1,6 @@
 ### How to set up Anaconda, Jupyter Notebook, TensorFlow and Keras
 
-The installation setup below should take no more than 10 to 15 minutes. 
+The installation setup below should take no more than 10 to 15 minutes. Read this blog post for more details: http://bit.ly/setup-for-deep-learning
 
 Note you don't need to install Keras if you are using it as part of the core TensorFlow API. After installing TensorFlow, import tensorflow as tf, then use tf.keras.
 
@@ -10,8 +10,8 @@ After downloading and installing conda, type "conda list" (and a list of package
 Set up a new conda environment, then install TF, Keras, launch Jupyter Notebook. 
 
 ```
-$ conda create -n fasion-mnist-tutorial`  # create a new environment  
-$ source activate fasion-mnist-tutorial   # activate the environment you just created 
+$ conda create -n [env-name]              # create a new environment and give it a name
+$ source activate [env-name]              # activate the environment you just created 
 $ conda install pip                       # install pip  
 $ pip install --upgrade tensorflow        # install latest version of Tensorflow 
 $ pip install --upgrade pip               # if you are prompted to upgrade pip 
